@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.ant-message {
+  position: fixed !important;
+  pointer-events: none;
+  z-index: 1010;
+}
+
+.ant-message .ant-message-notice-content {
+  pointer-events: auto;
+}
+
+.ant-message .ant-message-top-right {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  margin-left: auto;
+}
+
+.ant-message .ant-message-notice-wrapper {
+  text-align: right;
+}
